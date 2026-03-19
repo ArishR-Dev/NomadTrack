@@ -8,11 +8,11 @@ NomadTrack is a modern, high-performance web application designed to help remote
 
 | User Dashboard | Interactive Global Map |
 |:---:|:---:|
-| <img src="SS/user/dashboard.png" width="400" alt="Dashboard Preview"> | <img src="SS/user/map.png" width="400" alt="City Map Preview"> |
+| <img src="ss/user/dashboard.png" width="400" alt="Dashboard Preview"> | <img src="ss/user/map.png" width="400" alt="City Map Preview"> |
 
 | Admin Control Center | Real-time Analytics |
 |:---:|:---:|
-| <img src="SS/admin/admin-dashboard.png" width="400" alt="Admin Console Preview"> | <img src="SS/user/analytics.png" width="400" alt="Analytics Preview"> |
+| <img src="ss/admin/admin-dashboard.png" width="400" alt="Admin Console Preview"> | <img src="ss/user/analytics.png" width="400" alt="Analytics Preview"> |
 
 ---
 
