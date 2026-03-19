@@ -1,17 +1,14 @@
-import { SearchBar } from "@/components/SearchBar";
 import { Moon, Sun, LogOut, User } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import { useState, useRef, useEffect } from "react";
 import { useAuth } from "@/contexts/AuthContext";
 
 interface TopNavbarProps {
-  search: string;
-  onSearchChange: (v: string) => void;
   isDark: boolean;
   onToggleTheme: () => void;
 }
 
-export function TopNavbar({ search, onSearchChange, isDark, onToggleTheme }: TopNavbarProps) {
+export function TopNavbar({ isDark, onToggleTheme }: TopNavbarProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
@@ -40,9 +37,6 @@ export function TopNavbar({ search, onSearchChange, isDark, onToggleTheme }: Top
           <span className="text-primary-foreground font-bold text-sm">N</span>
         </div>
         <span className="text-base font-display font-bold text-foreground hidden sm:inline">NomadTrack</span>
-      </div>
-      <div className="flex-1 max-w-md mx-4">
-        <SearchBar value={search} onChange={onSearchChange} />
       </div>
       <div className="flex items-center gap-2">
         <button

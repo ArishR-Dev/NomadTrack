@@ -48,7 +48,6 @@ function PageTransitionWrapper({ children }: { children: React.ReactNode }) {
 
 const AppLayout = () => {
   const { isDark, toggle } = useTheme();
-  const [search, setSearch] = useState("");
   const location = useLocation();
   const navigate = useNavigate();
   const { user, loading } = useAuth();
@@ -121,7 +120,7 @@ const AppLayout = () => {
   // Logged in: main app (Dashboard stays at /)
   return (
     <div className="flex flex-col min-h-screen w-full">
-      <TopNavbar search={search} onSearchChange={setSearch} isDark={isDark} onToggleTheme={toggle} />
+      <TopNavbar isDark={isDark} onToggleTheme={toggle} />
       <main className="flex-1 overflow-y-auto">
         <PageTransitionWrapper>
           <Routes>
