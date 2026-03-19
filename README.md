@@ -78,7 +78,7 @@ If you are on Windows, you can simply double-click the `run-nomadtrack.bat` file
 
 ## ⚙️ Internal Control Console (Admin)
 
-There is a hidden internal console at `/control-panel` to manage the platform. This route is intentionally not linked in the main UI and is only accessible to users with `role = 'admin'`.
+There is a hidden internal console at `/control-panel` to manage the platform. This route is intentionally not linked in the main UI and is only accessible to users with `role = 'admin'`. You can quickly toggle or access this console by pressing **`Ctrl + Shift + A`** from anywhere in the application.
 
 To make a user an admin, manually update their role in the MySQL database:
 
