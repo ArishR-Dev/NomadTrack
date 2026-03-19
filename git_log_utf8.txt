@@ -1,5 +1,0 @@
-﻿7e2952d - chore: remove all remaining lovable boilerplate mentions
-9c98ea4 - docs: Add NomadTrack logo to README header
-375fc0b - Fix case sensitivity for screenshot paths in README
-a049b59 - docs: Comprehensive README rewrite with deep architectural and feature analysis
-def61c3 - Clean up old root screenshots
