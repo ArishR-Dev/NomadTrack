@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="frontend/public/normadlogomail.png" alt="NomadTrack Logo" width="120" />
+</div>
+
 # 🌍 NomadTrack (City Nomad Compass)
 
 > Your ultimate full-stack digital nomad companion.
