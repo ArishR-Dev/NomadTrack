@@ -1,0 +1,5 @@
+# This repository (NomadTrack) is a Node.js + React + MySQL project.
+# Python/pip dependencies are not used here.
+#
+# Backend dependencies: see `backend/package.json`
+# Frontend dependencies: see `frontend/package.json`
