@@ -6,13 +6,11 @@ NomadTrack is a full-stack digital nomad city explorer designed to help remote w
 
 | Dashboard | City Map View |
 |:---:|:---:|
-| <img src="docs/screenshots/dashboard.png" width="400" alt="Dashboard Preview"> | <img src="docs/screenshots/map.png" width="400" alt="City Map Preview"> |
+| <img src="SS/user/dashboard.png" width="400" alt="Dashboard Preview"> | <img src="SS/user/map.png" width="400" alt="City Map Preview"> |
 
 | Admin Console | Analytics Widget |
 |:---:|:---:|
-| <img src="docs/screenshots/admin.png" width="400" alt="Admin Console Preview"> | <img src="docs/screenshots/analytics.png" width="400" alt="Analytics Preview"> |
-
-> **Note:** Once you take screenshots of your app, place them in a `docs/screenshots` folder so they appear here!
+| <img src="SS/admin/admin-dashboard.png" width="400" alt="Admin Console Preview"> | <img src="SS/user/analytics.png" width="400" alt="Analytics Preview"> |
 
 ## ✨ Features & Specifications
 
