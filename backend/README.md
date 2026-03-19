@@ -81,4 +81,4 @@ To open the console (no UI link is shown), use:
 
 - **Backend:** in `backend/` run `node server.js` (or `npm start`) → http://localhost:5000  
 - **Frontend:** in project root run `npm run dev` → open the URL Vite prints (usually http://localhost:5173)  
-- **Lovable cloud preview** cannot reach your `localhost:5000`. To use the cloud preview with real data, deploy this backend to a public URL (e.g. Render, Railway) and set `VITE_API_BASE_URL` to that URL in the frontend.
+- **Production Deployments:** When deploying your frontend, ensure `VITE_API_BASE_URL` is set to your publicly reachable backend API url (e.g. Render, Railway, AWS).
